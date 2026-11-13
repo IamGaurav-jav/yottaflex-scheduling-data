@@ -1,0 +1,207 @@
+{
+ "final_dataset": {
+  "orders": {
+   "total": 500,
+   "scheduled": 484,
+   "unschedulable": 16,
+   "late": 105,
+   "on_time_pct_of_scheduled": 78.31
+  },
+  "lateness": {
+   "total_tardiness_min": 917153,
+   "avg_tardiness_min_of_late": 8734.8,
+   "max_tardiness_min": 31466,
+   "weighted_tardiness_min": 1119183,
+   "weights_by_priority": {
+    "1": 4,
+    "2": 3,
+    "3": 2,
+    "4": 1
+   }
+  },
+  "on_time_pct_by_priority": {
+   "1": 100.0,
+   "2": 97.1,
+   "3": 83.9,
+   "4": 39.0
+  },
+  "makespan": {
+   "first_start": "2026-11-02T08:00:00",
+   "last_end": "2026-12-05T04:53:00",
+   "makespan_min": 47333,
+   "makespan_days": 32.87
+  },
+  "utilisation_by_machine_group": {
+   "ASSY": {
+    "busy_pct": 43.4,
+    "process_min": 57655,
+    "setup_min": 2126,
+    "available_min": 137617
+   },
+   "GRIND": {
+    "busy_pct": 55.0,
+    "process_min": 37387,
+    "setup_min": 5764,
+    "available_min": 78392
+   },
+   "HEAT": {
+    "busy_pct": 24.9,
+    "process_min": 13524,
+    "setup_min": 1889,
+    "available_min": 61850
+   },
+   "MILL": {
+    "busy_pct": 41.8,
+    "process_min": 57957,
+    "setup_min": 5476,
+    "available_min": 151917
+   },
+   "PAINT": {
+    "busy_pct": 47.4,
+    "process_min": 28054,
+    "setup_min": 3743,
+    "available_min": 67136
+   },
+   "SAW": {
+    "busy_pct": 44.1,
+    "process_min": 33100,
+    "setup_min": 1705,
+    "available_min": 78967
+   },
+   "TEST": {
+    "busy_pct": 26.0,
+    "process_min": 16810,
+    "setup_min": 497,
+    "available_min": 66677
+   },
+   "TURN": {
+    "busy_pct": 39.9,
+    "process_min": 52825,
+    "setup_min": 3599,
+    "available_min": 141281
+   },
+   "WELD": {
+    "busy_pct": 43.8,
+    "process_min": 51426,
+    "setup_min": 3336,
+    "available_min": 124992
+   }
+  },
+  "utilisation_overall_pct": 41.5,
+  "changeover_share_of_busy_pct": 7.5,
+  "exceptions": {
+   "LATE_ORDER/MACHINE_CAPACITY": 86,
+   "LATE_ORDER/MATERIAL_DELAY": 19,
+   "MATERIAL_SHORTAGE/MATERIAL_SHORTAGE": 12,
+   "NO_CAPACITY_IN_HORIZON/NO_CAPACITY_IN_HORIZON": 4
+  },
+  "material": {
+   "lots": 490,
+   "delayed_lots": 69,
+   "urgent_orders": 41
+  }
+ },
+ "baseline_before_injection": {
+  "orders": {
+   "total": 500,
+   "scheduled": 484,
+   "unschedulable": 16,
+   "late": 105,
+   "on_time_pct_of_scheduled": 78.31
+  },
+  "lateness": {
+   "total_tardiness_min": 919291,
+   "avg_tardiness_min_of_late": 8755.2,
+   "max_tardiness_min": 31466,
+   "weighted_tardiness_min": 1121321,
+   "weights_by_priority": {
+    "1": 4,
+    "2": 3,
+    "3": 2,
+    "4": 1
+   }
+  },
+  "on_time_pct_by_priority": {
+   "1": 100.0,
+   "2": 97.1,
+   "3": 83.9,
+   "4": 39.0
+  },
+  "makespan": {
+   "first_start": "2026-11-02T08:00:00",
+   "last_end": "2026-12-05T04:53:00",
+   "makespan_min": 47333,
+   "makespan_days": 32.87
+  },
+  "utilisation_by_machine_group": {
+   "ASSY": {
+    "busy_pct": 43.4,
+    "process_min": 57655,
+    "setup_min": 2126,
+    "available_min": 137617
+   },
+   "GRIND": {
+    "busy_pct": 55.1,
+    "process_min": 37387,
+    "setup_min": 5827,
+    "available_min": 78392
+   },
+   "HEAT": {
+    "busy_pct": 24.9,
+    "process_min": 13524,
+    "setup_min": 1889,
+    "available_min": 61850
+   },
+   "MILL": {
+    "busy_pct": 41.8,
+    "process_min": 57957,
+    "setup_min": 5525,
+    "available_min": 151917
+   },
+   "PAINT": {
+    "busy_pct": 47.4,
+    "process_min": 28054,
+    "setup_min": 3743,
+    "available_min": 67136
+   },
+   "SAW": {
+    "busy_pct": 44.1,
+    "process_min": 33100,
+    "setup_min": 1705,
+    "available_min": 78967
+   },
+   "TEST": {
+    "busy_pct": 26.0,
+    "process_min": 16810,
+    "setup_min": 497,
+    "available_min": 66677
+   },
+   "TURN": {
+    "busy_pct": 39.9,
+    "process_min": 52825,
+    "setup_min": 3605,
+    "available_min": 141281
+   },
+   "WELD": {
+    "busy_pct": 43.8,
+    "process_min": 51426,
+    "setup_min": 3336,
+    "available_min": 124992
+   }
+  },
+  "utilisation_overall_pct": 41.5,
+  "changeover_share_of_busy_pct": 7.5,
+  "exceptions": {
+   "LATE_ORDER/MACHINE_CAPACITY": 86,
+   "LATE_ORDER/MATERIAL_DELAY": 19,
+   "MATERIAL_SHORTAGE/MATERIAL_SHORTAGE": 12,
+   "NO_CAPACITY_IN_HORIZON/NO_CAPACITY_IN_HORIZON": 4
+  },
+  "material": {
+   "lots": 490,
+   "delayed_lots": 69,
+   "urgent_orders": 41
+  }
+ },
+ "note": "final_dataset includes the injected anomalies; baseline_before_injection is the clean schedule."
+}

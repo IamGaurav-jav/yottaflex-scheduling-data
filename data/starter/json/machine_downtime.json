@@ -1,0 +1,14 @@
+[
+{"downtime_id": "DT-000001", "machine_id": "MACH-001", "downtime_type": "PLANNED_MAINTENANCE", "start_ts": "2026-11-23T14:00:00", "end_ts": "2026-11-23T20:57:00", "duration_min": 417},
+{"downtime_id": "DT-000002", "machine_id": "MACH-001", "downtime_type": "BREAKDOWN", "start_ts": "2026-12-02T06:44:00", "end_ts": "2026-12-02T12:05:00", "duration_min": 321},
+{"downtime_id": "DT-000003", "machine_id": "MACH-003", "downtime_type": "PLANNED_MAINTENANCE", "start_ts": "2026-11-26T14:00:00", "end_ts": "2026-11-26T20:34:00", "duration_min": 394},
+{"downtime_id": "DT-000004", "machine_id": "MACH-004", "downtime_type": "BREAKDOWN", "start_ts": "2026-11-11T17:47:00", "end_ts": "2026-11-11T20:30:00", "duration_min": 163},
+{"downtime_id": "DT-000005", "machine_id": "MACH-004", "downtime_type": "PLANNED_MAINTENANCE", "start_ts": "2026-11-19T14:00:00", "end_ts": "2026-11-19T18:55:00", "duration_min": 295},
+{"downtime_id": "DT-000006", "machine_id": "MACH-004", "downtime_type": "CALIBRATION", "start_ts": "2026-11-26T06:00:00", "end_ts": "2026-11-26T08:00:00", "duration_min": 120},
+{"downtime_id": "DT-000007", "machine_id": "MACH-004", "downtime_type": "BREAKDOWN", "start_ts": "2026-11-30T09:55:00", "end_ts": "2026-11-30T13:55:00", "duration_min": 240},
+{"downtime_id": "DT-000008", "machine_id": "MACH-004", "downtime_type": "BREAKDOWN", "start_ts": "2026-12-02T19:40:00", "end_ts": "2026-12-02T22:48:00", "duration_min": 188},
+{"downtime_id": "DT-000009", "machine_id": "MACH-005", "downtime_type": "BREAKDOWN", "start_ts": "2026-11-12T06:00:00", "end_ts": "2026-11-14T06:53:00", "duration_min": 2933},
+{"downtime_id": "DT-000010", "machine_id": "MACH-005", "downtime_type": "BREAKDOWN", "start_ts": "2026-12-03T09:40:00", "end_ts": "2026-12-03T13:24:00", "duration_min": 224},
+{"downtime_id": "DT-000011", "machine_id": "MACH-006", "downtime_type": "BREAKDOWN", "start_ts": "2026-11-26T13:02:00", "end_ts": "2026-11-26T14:47:00", "duration_min": 105},
+{"downtime_id": "DT-000012", "machine_id": "MACH-006", "downtime_type": "CALIBRATION", "start_ts": "2026-12-02T06:00:00", "end_ts": "2026-12-02T08:00:00", "duration_min": 120}
+]

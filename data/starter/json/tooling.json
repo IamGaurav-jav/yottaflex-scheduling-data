@@ -1,0 +1,7 @@
+[
+{"tool_id": "TOOL-001", "tool_name": "Turn fixture 01", "machine_group": "TURN", "status": "ACTIVE"},
+{"tool_id": "TOOL-002", "tool_name": "Mill fixture 02", "machine_group": "MILL", "status": "ACTIVE"},
+{"tool_id": "TOOL-003", "tool_name": "Grind fixture 03", "machine_group": "GRIND", "status": "ACTIVE"},
+{"tool_id": "TOOL-004", "tool_name": "Weld fixture 04", "machine_group": "WELD", "status": "ACTIVE"},
+{"tool_id": "TOOL-005", "tool_name": "Assy fixture 05", "machine_group": "ASSY", "status": "ACTIVE"}
+]

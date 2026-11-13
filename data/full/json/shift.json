@@ -1,0 +1,5 @@
+[
+{"shift_id": "SHIFT-A", "shift_name": "Day", "start_time": "06:00", "duration_min": 480},
+{"shift_id": "SHIFT-B", "shift_name": "Evening", "start_time": "14:00", "duration_min": 480},
+{"shift_id": "SHIFT-C", "shift_name": "Night", "start_time": "22:00", "duration_min": 480}
+]

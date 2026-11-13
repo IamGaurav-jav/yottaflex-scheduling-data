@@ -1,0 +1,4 @@
+shift_id,shift_name,start_time,duration_min
+SHIFT-A,Day,06:00,480
+SHIFT-B,Evening,14:00,480
+SHIFT-C,Night,22:00,480

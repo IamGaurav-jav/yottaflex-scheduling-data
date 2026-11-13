@@ -1,0 +1,183 @@
+{
+ "final_dataset": {
+  "orders": {
+   "total": 100,
+   "scheduled": 97,
+   "unschedulable": 3,
+   "late": 28,
+   "on_time_pct_of_scheduled": 71.13
+  },
+  "lateness": {
+   "total_tardiness_min": 261713,
+   "avg_tardiness_min_of_late": 9346.9,
+   "max_tardiness_min": 23103,
+   "weighted_tardiness_min": 340206,
+   "weights_by_priority": {
+    "1": 4,
+    "2": 3,
+    "3": 2,
+    "4": 1
+   }
+  },
+  "on_time_pct_by_priority": {
+   "1": 85.7,
+   "2": 94.7,
+   "3": 80.0,
+   "4": 34.6
+  },
+  "makespan": {
+   "first_start": "2026-11-02T08:00:00",
+   "last_end": "2026-12-03T11:16:00",
+   "makespan_min": 44836,
+   "makespan_days": 31.14
+  },
+  "utilisation_by_machine_group": {
+   "ASSY": {
+    "busy_pct": 41.5,
+    "process_min": 9214,
+    "setup_min": 359,
+    "available_min": 23040
+   },
+   "GRIND": {
+    "busy_pct": 46.0,
+    "process_min": 8515,
+    "setup_min": 1104,
+    "available_min": 20896
+   },
+   "MILL": {
+    "busy_pct": 45.6,
+    "process_min": 19060,
+    "setup_min": 1345,
+    "available_min": 44728
+   },
+   "PAINT": {
+    "busy_pct": 41.6,
+    "process_min": 9659,
+    "setup_min": 1909,
+    "available_min": 27840
+   },
+   "SAW": {
+    "busy_pct": 54.1,
+    "process_min": 5566,
+    "setup_min": 492,
+    "available_min": 11199
+   },
+   "TURN": {
+    "busy_pct": 55.4,
+    "process_min": 12205,
+    "setup_min": 557,
+    "available_min": 23040
+   },
+   "WELD": {
+    "busy_pct": 53.4,
+    "process_min": 5224,
+    "setup_min": 830,
+    "available_min": 11342
+   }
+  },
+  "utilisation_overall_pct": 46.9,
+  "changeover_share_of_busy_pct": 8.7,
+  "exceptions": {
+   "LATE_ORDER/MACHINE_CAPACITY": 26,
+   "LATE_ORDER/MATERIAL_DELAY": 2,
+   "MATERIAL_SHORTAGE/MATERIAL_SHORTAGE": 2,
+   "NO_CAPACITY_IN_HORIZON/NO_CAPACITY_IN_HORIZON": 1
+  },
+  "material": {
+   "lots": 102,
+   "delayed_lots": 15,
+   "urgent_orders": 7
+  }
+ },
+ "baseline_before_injection": {
+  "orders": {
+   "total": 100,
+   "scheduled": 97,
+   "unschedulable": 3,
+   "late": 28,
+   "on_time_pct_of_scheduled": 71.13
+  },
+  "lateness": {
+   "total_tardiness_min": 262786,
+   "avg_tardiness_min_of_late": 9385.2,
+   "max_tardiness_min": 23103,
+   "weighted_tardiness_min": 341279,
+   "weights_by_priority": {
+    "1": 4,
+    "2": 3,
+    "3": 2,
+    "4": 1
+   }
+  },
+  "on_time_pct_by_priority": {
+   "1": 85.7,
+   "2": 94.7,
+   "3": 80.0,
+   "4": 34.6
+  },
+  "makespan": {
+   "first_start": "2026-11-02T08:00:00",
+   "last_end": "2026-12-03T11:16:00",
+   "makespan_min": 44836,
+   "makespan_days": 31.14
+  },
+  "utilisation_by_machine_group": {
+   "ASSY": {
+    "busy_pct": 41.5,
+    "process_min": 9214,
+    "setup_min": 359,
+    "available_min": 23040
+   },
+   "GRIND": {
+    "busy_pct": 46.0,
+    "process_min": 8515,
+    "setup_min": 1104,
+    "available_min": 20896
+   },
+   "MILL": {
+    "busy_pct": 45.7,
+    "process_min": 19060,
+    "setup_min": 1369,
+    "available_min": 44728
+   },
+   "PAINT": {
+    "busy_pct": 41.6,
+    "process_min": 9659,
+    "setup_min": 1909,
+    "available_min": 27840
+   },
+   "SAW": {
+    "busy_pct": 54.1,
+    "process_min": 5566,
+    "setup_min": 492,
+    "available_min": 11199
+   },
+   "TURN": {
+    "busy_pct": 55.4,
+    "process_min": 12205,
+    "setup_min": 557,
+    "available_min": 23040
+   },
+   "WELD": {
+    "busy_pct": 53.6,
+    "process_min": 5224,
+    "setup_min": 856,
+    "available_min": 11342
+   }
+  },
+  "utilisation_overall_pct": 46.9,
+  "changeover_share_of_busy_pct": 8.7,
+  "exceptions": {
+   "LATE_ORDER/MACHINE_CAPACITY": 26,
+   "LATE_ORDER/MATERIAL_DELAY": 2,
+   "MATERIAL_SHORTAGE/MATERIAL_SHORTAGE": 2,
+   "NO_CAPACITY_IN_HORIZON/NO_CAPACITY_IN_HORIZON": 1
+  },
+  "material": {
+   "lots": 102,
+   "delayed_lots": 15,
+   "urgent_orders": 7
+  }
+ },
+ "note": "final_dataset includes the injected anomalies; baseline_before_injection is the clean schedule."
+}

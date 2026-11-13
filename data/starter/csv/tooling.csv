@@ -1,0 +1,6 @@
+tool_id,tool_name,machine_group,status
+TOOL-001,Turn fixture 01,TURN,ACTIVE
+TOOL-002,Mill fixture 02,MILL,ACTIVE
+TOOL-003,Grind fixture 03,GRIND,ACTIVE
+TOOL-004,Weld fixture 04,WELD,ACTIVE
+TOOL-005,Assy fixture 05,ASSY,ACTIVE

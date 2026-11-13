@@ -1,0 +1,1320 @@
+{
+ "integrity_failures": 0,
+ "checks": [
+  {
+   "check": "product: columns match schema",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "product: types",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "product: required fields",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "product: allowed values",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "product: ID/format patterns",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "product: numeric ranges",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing: columns match schema",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing: types",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing: required fields",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing: allowed values",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing: ID/format patterns",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing: numeric ranges",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "tooling: columns match schema",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "tooling: types",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "tooling: required fields",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "tooling: allowed values",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "tooling: ID/format patterns",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "tooling: numeric ranges",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing_step: columns match schema",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing_step: types",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing_step: required fields",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing_step: allowed values",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing_step: ID/format patterns",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing_step: numeric ranges",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "machine: columns match schema",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "machine: types",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "machine: required fields",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "machine: allowed values",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "machine: ID/format patterns",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "machine: numeric ranges",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing_step_machine: columns match schema",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing_step_machine: types",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing_step_machine: required fields",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing_step_machine: allowed values",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing_step_machine: ID/format patterns",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing_step_machine: numeric ranges",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "shift: columns match schema",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "shift: types",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "shift: required fields",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "shift: allowed values",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "shift: ID/format patterns",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "shift: numeric ranges",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "machine_calendar: columns match schema",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "machine_calendar: types",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "machine_calendar: required fields",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "machine_calendar: allowed values",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "machine_calendar: ID/format patterns",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "machine_calendar: numeric ranges",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "machine_downtime: columns match schema",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "machine_downtime: types",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "machine_downtime: required fields",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "machine_downtime: allowed values",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "machine_downtime: ID/format patterns",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "machine_downtime: numeric ranges",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "changeover_matrix: columns match schema",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "changeover_matrix: types",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "changeover_matrix: required fields",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "changeover_matrix: allowed values",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "changeover_matrix: ID/format patterns",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "changeover_matrix: numeric ranges",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "material: columns match schema",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "material: types",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "material: required fields",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "material: allowed values",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "material: ID/format patterns",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "material: numeric ranges",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing_step_material: columns match schema",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing_step_material: types",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing_step_material: required fields",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing_step_material: allowed values",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing_step_material: ID/format patterns",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing_step_material: numeric ranges",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "inventory_lot: columns match schema",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "inventory_lot: types",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "inventory_lot: required fields",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "inventory_lot: allowed values",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "inventory_lot: ID/format patterns",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "inventory_lot: numeric ranges",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "production_order: columns match schema",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "production_order: types",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "production_order: required fields",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "production_order: allowed values",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "production_order: ID/format patterns",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "production_order: numeric ranges",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "operation: columns match schema",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "operation: types",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "operation: required fields",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "operation: allowed values",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "operation: ID/format patterns",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "operation: numeric ranges",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "operation_schedule: columns match schema",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "operation_schedule: types",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "operation_schedule: required fields",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "operation_schedule: allowed values",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "operation_schedule: ID/format patterns",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "operation_schedule: numeric ranges",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "material_consumption: columns match schema",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "material_consumption: types",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "material_consumption: required fields",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "material_consumption: allowed values",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "material_consumption: ID/format patterns",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "material_consumption: numeric ranges",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "status_event: columns match schema",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "status_event: types",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "status_event: required fields",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "status_event: allowed values",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "status_event: ID/format patterns",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "status_event: numeric ranges",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "schedule_exception: columns match schema",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "schedule_exception: types",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "schedule_exception: required fields",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "schedule_exception: allowed values",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "schedule_exception: ID/format patterns",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "schedule_exception: numeric ranges",
+   "category": "schema",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "primary key uniqueness",
+   "category": "keys",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "unique constraints",
+   "category": "keys",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "foreign key integrity (all joins)",
+   "category": "keys",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "product: effective dates and DISCONTINUED lifecycle",
+   "category": "dates",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing: id convention, effective dates, no version overlap",
+   "category": "dates",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "routing steps: id convention and contiguous sequence",
+   "category": "keys",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "eligibility bridge: machine group matches step, every step has a machine",
+   "category": "keys",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "changeover matrix complete for every group and family pair",
+   "category": "keys",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "machine calendar: date ordering, capacity arithmetic, no overlapping windows",
+   "category": "arithmetic",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "machine downtime: date ordering, duration arithmetic, no overlaps",
+   "category": "arithmetic",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "inventory lot: available_ts >= promised_ts",
+   "category": "dates",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "orders: created <= plan run, release < due, due after release",
+   "category": "dates",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "orders: routing effective on release date, SKU orderable",
+   "category": "dates",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "orders: urgent <=> priority 1",
+   "category": "keys",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "orders: one operation per routing step, contiguous sequence",
+   "category": "keys",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "operations: ID convention, copy-from-step consistency, std duration arithmetic",
+   "category": "arithmetic",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "schedule: machine eligibility",
+   "category": "keys",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "schedule: process_min / end-start / setup_start arithmetic",
+   "category": "arithmetic",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "schedule: one row per SCHEDULED operation, none otherwise",
+   "category": "lifecycle",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "material consumption reconciles to BOM x quantity (incl. scrap)",
+   "category": "arithmetic",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "material consumed_ts equals operation start_ts",
+   "category": "arithmetic",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "inventory lot balances reconcile to consumption",
+   "category": "arithmetic",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "order derived values (totals, start/finish, lateness) reconcile to schedule",
+   "category": "arithmetic",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "lifecycle: only allowed transitions",
+   "category": "lifecycle",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "lifecycle: history chain continuity and timestamp order",
+   "category": "lifecycle",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "lifecycle: current status equals last event; every entity has history",
+   "category": "lifecycle",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "lifecycle: operation states coherent with order state",
+   "category": "lifecycle",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "every infeasible or late order has exactly one explanation",
+   "category": "lifecycle",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "duplicate business rows (events, consumption)",
+   "category": "keys",
+   "status": "PASS",
+   "failures": 0,
+   "examples": [],
+   "note": ""
+  },
+  {
+   "check": "hard scheduling constraints (violations are listed, not failures of the dataset)",
+   "category": "constraint",
+   "status": "FAIL",
+   "failures": 15,
+   "examples": [
+    {
+     "rule": "OUTSIDE_SHIFT_CALENDAR",
+     "entity_id": "SCH-2026-000010",
+     "related_id": null,
+     "message": "occupancy 2026-11-03T13:54:00..2026-11-03T16:00:00 not inside a staffed window with crew>=1"
+    },
+    {
+     "rule": "OUTSIDE_SHIFT_CALENDAR",
+     "entity_id": "SCH-2026-000062",
+     "related_id": null,
+     "message": "occupancy 2026-11-09T00:06:00..2026-11-09T04:16:00 not inside a staffed window with crew>=2"
+    },
+    {
+     "rule": "PRECEDENCE_VIOLATED",
+     "entity_id": "SCH-2026-000110",
+     "related_id": "SCH-2026-000103",
+     "message": "starts before predecessor operation ends"
+    },
+    {
+     "rule": "OUTSIDE_SHIFT_CALENDAR",
+     "entity_id": "SCH-2026-000165",
+     "related_id": null,
+     "message": "occupancy 2026-11-15T02:05:00..2026-11-15T07:43:00 not inside a staffed window with crew>=1"
+    },
+    {
+     "rule": "PRECEDENCE_VIOLATED",
+     "entity_id": "SCH-2026-000282",
+     "related_id": "SCH-2026-000281",
+     "message": "starts before predecessor operation ends"
+    }
+   ],
+   "note": "counted separately; see constraint_violations"
+  }
+ ],
+ "constraint_violations_total": 15,
+ "constraint_violations_by_rule": {
+  "CHANGEOVER_OMITTED": 3,
+  "MATERIAL_CONSUMED_BEFORE_AVAILABLE": 3,
+  "OPERATIONS_OVERLAP": 3,
+  "OUTSIDE_SHIFT_CALENDAR": 3,
+  "PRECEDENCE_VIOLATED": 3
+ },
+ "constraint_violations": [
+  {
+   "rule": "OUTSIDE_SHIFT_CALENDAR",
+   "entity_id": "SCH-2026-000010",
+   "related_id": null,
+   "message": "occupancy 2026-11-03T13:54:00..2026-11-03T16:00:00 not inside a staffed window with crew>=1"
+  },
+  {
+   "rule": "OUTSIDE_SHIFT_CALENDAR",
+   "entity_id": "SCH-2026-000062",
+   "related_id": null,
+   "message": "occupancy 2026-11-09T00:06:00..2026-11-09T04:16:00 not inside a staffed window with crew>=2"
+  },
+  {
+   "rule": "PRECEDENCE_VIOLATED",
+   "entity_id": "SCH-2026-000110",
+   "related_id": "SCH-2026-000103",
+   "message": "starts before predecessor operation ends"
+  },
+  {
+   "rule": "OUTSIDE_SHIFT_CALENDAR",
+   "entity_id": "SCH-2026-000165",
+   "related_id": null,
+   "message": "occupancy 2026-11-15T02:05:00..2026-11-15T07:43:00 not inside a staffed window with crew>=1"
+  },
+  {
+   "rule": "PRECEDENCE_VIOLATED",
+   "entity_id": "SCH-2026-000282",
+   "related_id": "SCH-2026-000281",
+   "message": "starts before predecessor operation ends"
+  },
+  {
+   "rule": "PRECEDENCE_VIOLATED",
+   "entity_id": "SCH-2026-000371",
+   "related_id": "SCH-2026-000360",
+   "message": "starts before predecessor operation ends"
+  },
+  {
+   "rule": "OPERATIONS_OVERLAP",
+   "entity_id": "SCH-2026-000037",
+   "related_id": "SCH-2026-000034",
+   "message": "machine occupancy overlaps another operation"
+  },
+  {
+   "rule": "OPERATIONS_OVERLAP",
+   "entity_id": "SCH-2026-000169",
+   "related_id": "SCH-2026-000164",
+   "message": "machine occupancy overlaps another operation"
+  },
+  {
+   "rule": "CHANGEOVER_OMITTED",
+   "entity_id": "SCH-2026-000171",
+   "related_id": "SCH-2026-000167",
+   "message": "setup 0 min < required 3 min (FAM-G->FAM-G)"
+  },
+  {
+   "rule": "CHANGEOVER_OMITTED",
+   "entity_id": "SCH-2026-000235",
+   "related_id": "SCH-2026-000231",
+   "message": "setup 0 min < required 23 min (FAM-E->FAM-B)"
+  },
+  {
+   "rule": "CHANGEOVER_OMITTED",
+   "entity_id": "SCH-2026-000031",
+   "related_id": "SCH-2026-000028",
+   "message": "setup 0 min < required 24 min (FAM-H->FAM-E)"
+  },
+  {
+   "rule": "OPERATIONS_OVERLAP",
+   "entity_id": "SCH-2026-000212",
+   "related_id": "SCH-2026-000209",
+   "message": "machine occupancy overlaps another operation"
+  },
+  {
+   "rule": "MATERIAL_CONSUMED_BEFORE_AVAILABLE",
+   "entity_id": "CON-000004",
+   "related_id": "LOT-000022",
+   "message": "consumed 2026-11-03T06:27:00 before lot available 2026-11-15T08:00:00"
+  },
+  {
+   "rule": "MATERIAL_CONSUMED_BEFORE_AVAILABLE",
+   "entity_id": "CON-000106",
+   "related_id": "LOT-000056",
+   "message": "consumed 2026-11-11T17:20:00 before lot available 2026-11-26T08:00:00"
+  },
+  {
+   "rule": "MATERIAL_CONSUMED_BEFORE_AVAILABLE",
+   "entity_id": "CON-000148",
+   "related_id": "LOT-000098",
+   "message": "consumed 2026-11-16T11:45:00 before lot available 2026-11-19T08:00:00"
+  }
+ ],
+ "row_counts": {
+  "product": 20,
+  "routing": 24,
+  "tooling": 5,
+  "routing_step": 95,
+  "machine": 8,
+  "routing_step_machine": 107,
+  "shift": 3,
+  "machine_calendar": 346,
+  "machine_downtime": 12,
+  "changeover_matrix": 448,
+  "material": 40,
+  "routing_step_material": 68,
+  "inventory_lot": 102,
+  "production_order": 100,
+  "operation": 400,
+  "operation_schedule": 387,
+  "material_consumption": 300,
+  "status_event": 1219,
+  "schedule_exception": 31
+ },
+ "ground_truth_check": {
+  "expected_anomalies": 15,
+  "detected_by_validator": 15,
+  "missed": [],
+  "unexpected_violations": [],
+  "exact_match": true
+ },
+ "baseline_before_injection": {
+  "integrity_failures": 0,
+  "constraint_violations_total": 0
+ }
+}
