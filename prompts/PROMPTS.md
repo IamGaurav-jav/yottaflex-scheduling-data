@@ -69,6 +69,12 @@ yeag
 ```
 (Agreed to the guided code tour starting with `scheduler.py`.)
 
+### Prompt 10 (12:00 IST)
+```
+lets build this really quick and gimme the github link
+```
+(Interpreted as: the build is done, push it to a public GitHub repo and share the link.)
+
 ## Notes
 - The AI agent read the task description from the challenge page in a browser panel I logged into; it did not click,
   type into or submit anything on the website.
