@@ -75,7 +75,7 @@ calendar and tool window. An order is scheduled atomically - any failure rolls t
 **Alternatives:** CP-SAT/MIP (optimal, but heavy dependency and hard to express sequence-dependent setups over
 calendars within the time budget), genetic algorithm (non-trivial reproducibility), append-only dispatch (simple but
 wastes early idle time, so urgent late-released orders would be placed badly).
-**Trade-off:** not optimal; strict priority starves priority-4 orders (39% on time vs ~100% for urgent) - visible in
+**Trade-off:** not optimal; strict priority starves priority-4 orders (44% on time vs 100% for urgent) - visible in
 `metrics.json` and listed as a limitation, not hidden.
 
 ## 13. Material model
@@ -88,6 +88,15 @@ promise; ~6% of materials are deliberately under-supplied. Operations draw from 
 ## 14. Shared tooling
 A tool is one physical unit; two operations on different machines cannot hold it at the same time
 (`[setup_start, end)` windows). Tool pools are smaller than machine groups to create contention.
+
+## 14b. Due dates from work content (candidate's decision)
+Chosen by the candidate from four options offered (due dates tied to work content / reduce low-priority starvation /
+6th anomaly type / skip). **Chosen:** `due = release + ceil((work_min/480 + 0.5*steps) * slack)` days, with slack drawn
+from U(1.3, 2.2) for urgent and U(2.0, 5.0) for standard orders (floors of 2 and 3 days). **Alternative (previous):**
+a uniform random 5-24 day offset independent of the order. **Why:** a customer promise should scale with the work
+involved; the old rule gave a 6-step 400-unit order the same window as a 2-step 10-unit one. **Effect:** low-priority
+on-time rate moved 39% -> 44% and lateness is now explained by load, not by arbitrary due dates.
+**Trade-off:** slack ranges are assumptions, not calibrated to real customer data.
 
 ## 15. Exceptions and explanations
 Every unschedulable or late order gets exactly one `ScheduleException` with a computed root cause:
@@ -133,5 +142,4 @@ match, no label leakage, parameterised scale, CSV round-trip + SQLite FK load, r
   superseded schedule versions instead of overwriting).
 - Heuristic, not optimal; strict priority starves low priority orders.
 - Labour is modelled as crew-size windows, not individual operators; no preemption or splitting of operations.
-- Due dates are drawn independently of routing content (a realistic promise would scale with work content).
 - Tested on Python 3.14.8 only; the code uses `dict | dict`, so Python 3.9+ is required.

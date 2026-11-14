@@ -52,12 +52,12 @@ required, allowed values, units, uniqueness, validation rule, plus PK/FK and car
 | Baseline schedule satisfies all hard constraints | `validation_report.json -> baseline_before_injection`: 0 integrity failures, 0 constraint violations |
 | Calendars, downtime, crew, tools, changeovers, precedence, materials respected | validator rules `OUTSIDE_SHIFT_CALENDAR`, `MACHINE_DOWNTIME_CONFLICT`, `TOOL_DOUBLE_BOOKED`, `CHANGEOVER_OMITTED`, `PRECEDENCE_VIOLATED`, `OPERATIONS_OVERLAP`, `MATERIAL_CONSUMED_BEFORE_AVAILABLE`, `LOT_OVERDRAWN` |
 | Anomaly labels are exactly right | `ground_truth_check.exact_match = true` (50/50 detected, 0 unexpected) - validator never reads ground truth |
-| Makespan and lateness computable; infeasibility explained | `metrics.json`; 16 unschedulable + 105 late orders each have one `schedule_exception` with a computed root cause |
+| Makespan and lateness computable; infeasibility explained | `metrics.json`; 19 unschedulable + 103 late orders each have one `schedule_exception` with a computed root cause |
 | Valid joins / IDs / reconciliation | 143 PASS integrity checks (PK, FK, enums, dates, arithmetic, lifecycle); SQL loads with `foreign_key_check` empty |
 | Reproducible | `reproducibility_report.json`: identical checksums across two runs and against committed files |
 
-Headline results (clean baseline, full preset): 484 of 500 orders scheduled, 78% of scheduled orders on time
-(urgent 100%, low priority 39%), makespan 32.9 days, overall utilisation 41.5%, changeovers 7.5% of busy time.
+Headline results (clean baseline, full preset): 481 of 500 orders scheduled, 79% of scheduled orders on time
+(urgent 100%, low priority 44%), makespan 33.1 days, overall utilisation 41.1%, changeovers 7.4% of busy time.
 The injected anomalies are 10 of each: overlap, precedence, material-before-availability, outside shift calendar,
 changeover omitted.
 

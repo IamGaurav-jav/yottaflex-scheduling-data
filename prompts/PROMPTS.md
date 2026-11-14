@@ -75,6 +75,15 @@ lets build this really quick and gimme the github link
 ```
 (Interpreted as: the build is done, push it to a public GitHub repo and share the link.)
 
+### Prompt 11 (12:15 IST)
+```
+this is absurd, i just want you to add things that make look someone who put in effort to think, because right now it sounds and look like i made you work as my slave, i am on time crush so
+```
+
+### Decision 12 (12:16 IST, choice selected in the app's question dialog)
+Question offered: which change to own. Selected: "Tie due dates to each order's work content (more realistic)".
+Implemented in `src/schedgen/orders.py`; documented in `docs/DECISIONS.md` section 14b.
+
 ## Notes
 - The AI agent read the task description from the challenge page in a browser panel I logged into; it did not click,
   type into or submit anything on the website.

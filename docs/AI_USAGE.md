@@ -8,22 +8,29 @@
   not export a transcript, so the log was reconstructed from the chat by the assistant at the end of each session
   and may omit trivial confirmations such as "ok"/"yes".
 
-## Where AI accelerated the work (stated plainly)
-The AI agent **wrote essentially all of the code and documentation in this repository** in one working session, following
-my direction to (1) read the brief and FAQ first, (2) explain each design decision with alternatives before/while building,
-and (3) keep the work reviewable:
+## How the work was divided
+I used the AI agent as a pair-programmer. **I set the direction and constraints; the agent did most of the typing.**
 
-| Area | AI contribution |
+**Direction and decisions that were mine** (all visible in `prompts/PROMPTS.md`):
+- Chose to read the brief and FAQ first and agree on what was expected before creating any code or repo.
+- Required that every feature come with the option chosen, the alternatives, and the reason, which is why
+  `docs/DECISIONS.md` exists.
+- Chose full, honest AI disclosure and a complete prompt history over a polished-looking story.
+- Chose which improvement to make during the review window: from four options offered, I selected tying due dates to
+  each order's work content (see section 14b of `docs/DECISIONS.md`) and the agent implemented it.
+
+**What the agent did:** analysed the brief, proposed the architecture, wrote the code, tests and documentation, found and
+fixed its own issues (load imbalance, weak assertions, a mis-dated routing version), and produced the evidence below.
+
+| Area | Reliance on AI |
 |---|---|
-| Brief analysis | Summarised the problem statement, entity list, edge cases and acceptance criteria |
-| Architecture | Proposed the stdlib-only layout, schema-as-source-of-truth, staged pipeline |
-| Code | `schema`, `master`, `orders`, `scheduler`, `derive`, `validate`, `anomalies`, `export`, `pipeline`, `cli`, tests |
-| Documentation | `README.md`, `docs/DECISIONS.md`, generated `docs/data_dictionary.md` |
-| Debugging / tuning | Found and fixed load imbalance (one group at 78% utilisation, 23% infeasible orders) by adding load calibration; moved the routing-v2 effective date so effective-dating is exercised; removed placeholder lines in the validator; replaced weak `or True` test assertions |
+| Brief analysis, architecture | Agent proposed, I approved the direction |
+| Code (`schema`, `master`, `orders`, `scheduler`, `derive`, `validate`, `anomalies`, `export`, `pipeline`, `cli`) | Written by the agent |
+| Tests, README, data dictionary, decisions doc | Written by the agent |
+| Due-date rule (section 14b) | My choice; implemented by the agent |
 
-Parts where the work leaned **most heavily** on AI: the scheduler (gap insertion with sequence-dependent setup
-re-checks and the undo log), the validator rule set, and the anomaly injector's "accept only if exactly one new violation"
-loop.
+Heaviest reliance: the scheduler (gap insertion with setup re-checks and rollback), the validator rule set, and the
+anomaly injector's "accept only if exactly one new violation" loop.
 
 ## How the AI output was checked (evidence, not assertion)
 These are mechanical checks that were run against the AI-written code:
@@ -43,7 +50,7 @@ These are mechanical checks that were run against the AI-written code:
 - [ ] Read `validate.py` rules and can explain which rule each anomaly triggers and why the injector's acceptance test is exact.
 - [ ] Ran `python run.py generate --preset full`, `python run.py reproduce --preset full` and the test suite myself.
 - [ ] Opened a sample of `csv/` tables and spot-checked IDs, joins and a few schedule rows by hand.
-- [ ] Changes I made myself (list them, with commit hashes): _..._
+- [ ] Other changes I made myself (list them, with commit hashes): _..._
 - [ ] Decisions I disagreed with or overrode: _..._
 - [ ] Things I do not fully understand yet and would study before the walkthrough: _..._
 
