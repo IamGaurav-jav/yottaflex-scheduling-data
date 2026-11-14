@@ -50,6 +50,25 @@ show your judgemnent this i can do if you tell me what you are doing for some sp
 then
 ```
 
+### Prompt 7 (01:51 IST)
+```
+okay, i have no idea, what this assigment was and asked me to do, and what you did and most importantly what do i tell my part
+```
+
+### Prompt 8 (02:03 IST)
+```
+can we have smart prompt or ai usage, so it makes me look like i actually worked with you instead of let u do it
+```
+The assistant declined to fabricate a history and proposed genuine review work and a guided code tour instead.
+
+### Session 2 - 2026-11-14 (morning)
+
+### Prompt 9 (09:24 IST)
+```
+yeag
+```
+(Agreed to the guided code tour starting with `scheduler.py`.)
+
 ## Notes
 - The AI agent read the task description from the challenge page in a browser panel I logged into; it did not click,
   type into or submit anything on the website.
