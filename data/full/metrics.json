@@ -2,16 +2,16 @@
  "final_dataset": {
   "orders": {
    "total": 500,
-   "scheduled": 484,
-   "unschedulable": 16,
-   "late": 105,
-   "on_time_pct_of_scheduled": 78.31
+   "scheduled": 481,
+   "unschedulable": 19,
+   "late": 103,
+   "on_time_pct_of_scheduled": 78.59
   },
   "lateness": {
-   "total_tardiness_min": 917153,
-   "avg_tardiness_min_of_late": 8734.8,
-   "max_tardiness_min": 31466,
-   "weighted_tardiness_min": 1119183,
+   "total_tardiness_min": 883543,
+   "avg_tardiness_min_of_late": 8578.1,
+   "max_tardiness_min": 31835,
+   "weighted_tardiness_min": 1052118,
    "weights_by_priority": {
     "1": 4,
     "2": 3,
@@ -21,79 +21,79 @@
   },
   "on_time_pct_by_priority": {
    "1": 100.0,
-   "2": 97.1,
-   "3": 83.9,
-   "4": 39.0
+   "2": 100.0,
+   "3": 81.9,
+   "4": 43.8
   },
   "makespan": {
    "first_start": "2026-11-02T08:00:00",
-   "last_end": "2026-12-05T04:53:00",
-   "makespan_min": 47333,
-   "makespan_days": 32.87
+   "last_end": "2026-12-05T09:45:00",
+   "makespan_min": 47625,
+   "makespan_days": 33.07
   },
   "utilisation_by_machine_group": {
    "ASSY": {
-    "busy_pct": 43.4,
-    "process_min": 57655,
-    "setup_min": 2126,
+    "busy_pct": 43.0,
+    "process_min": 57162,
+    "setup_min": 2056,
     "available_min": 137617
    },
    "GRIND": {
-    "busy_pct": 55.0,
-    "process_min": 37387,
-    "setup_min": 5764,
+    "busy_pct": 54.3,
+    "process_min": 37221,
+    "setup_min": 5309,
     "available_min": 78392
    },
    "HEAT": {
-    "busy_pct": 24.9,
-    "process_min": 13524,
-    "setup_min": 1889,
+    "busy_pct": 24.6,
+    "process_min": 13248,
+    "setup_min": 1989,
     "available_min": 61850
    },
    "MILL": {
-    "busy_pct": 41.8,
-    "process_min": 57957,
-    "setup_min": 5476,
+    "busy_pct": 41.4,
+    "process_min": 57270,
+    "setup_min": 5694,
     "available_min": 151917
    },
    "PAINT": {
-    "busy_pct": 47.4,
-    "process_min": 28054,
-    "setup_min": 3743,
+    "busy_pct": 46.6,
+    "process_min": 27769,
+    "setup_min": 3509,
     "available_min": 67136
    },
    "SAW": {
     "busy_pct": 44.1,
-    "process_min": 33100,
-    "setup_min": 1705,
+    "process_min": 33123,
+    "setup_min": 1675,
     "available_min": 78967
    },
    "TEST": {
     "busy_pct": 26.0,
-    "process_min": 16810,
+    "process_min": 16806,
     "setup_min": 497,
     "available_min": 66677
    },
    "TURN": {
-    "busy_pct": 39.9,
-    "process_min": 52825,
-    "setup_min": 3599,
+    "busy_pct": 39.5,
+    "process_min": 52250,
+    "setup_min": 3557,
     "available_min": 141281
    },
    "WELD": {
-    "busy_pct": 43.8,
-    "process_min": 51426,
-    "setup_min": 3336,
+    "busy_pct": 43.6,
+    "process_min": 51056,
+    "setup_min": 3386,
     "available_min": 124992
    }
   },
-  "utilisation_overall_pct": 41.5,
-  "changeover_share_of_busy_pct": 7.5,
+  "utilisation_overall_pct": 41.1,
+  "changeover_share_of_busy_pct": 7.4,
   "exceptions": {
-   "LATE_ORDER/MACHINE_CAPACITY": 86,
-   "LATE_ORDER/MATERIAL_DELAY": 19,
+   "LATE_ORDER/MACHINE_CAPACITY": 76,
+   "LATE_ORDER/MATERIAL_DELAY": 27,
    "MATERIAL_SHORTAGE/MATERIAL_SHORTAGE": 12,
-   "NO_CAPACITY_IN_HORIZON/NO_CAPACITY_IN_HORIZON": 4
+   "NO_CAPACITY_IN_HORIZON/NO_CAPACITY_IN_HORIZON": 7
   },
   "material": {
    "lots": 490,
@@ -104,16 +104,16 @@
  "baseline_before_injection": {
   "orders": {
    "total": 500,
-   "scheduled": 484,
-   "unschedulable": 16,
-   "late": 105,
-   "on_time_pct_of_scheduled": 78.31
+   "scheduled": 481,
+   "unschedulable": 19,
+   "late": 103,
+   "on_time_pct_of_scheduled": 78.59
   },
   "lateness": {
-   "total_tardiness_min": 919291,
-   "avg_tardiness_min_of_late": 8755.2,
-   "max_tardiness_min": 31466,
-   "weighted_tardiness_min": 1121321,
+   "total_tardiness_min": 885178,
+   "avg_tardiness_min_of_late": 8594.0,
+   "max_tardiness_min": 31835,
+   "weighted_tardiness_min": 1054849,
    "weights_by_priority": {
     "1": 4,
     "2": 3,
@@ -123,79 +123,79 @@
   },
   "on_time_pct_by_priority": {
    "1": 100.0,
-   "2": 97.1,
-   "3": 83.9,
-   "4": 39.0
+   "2": 100.0,
+   "3": 81.9,
+   "4": 43.8
   },
   "makespan": {
    "first_start": "2026-11-02T08:00:00",
-   "last_end": "2026-12-05T04:53:00",
-   "makespan_min": 47333,
-   "makespan_days": 32.87
+   "last_end": "2026-12-05T09:45:00",
+   "makespan_min": 47625,
+   "makespan_days": 33.07
   },
   "utilisation_by_machine_group": {
    "ASSY": {
-    "busy_pct": 43.4,
-    "process_min": 57655,
-    "setup_min": 2126,
+    "busy_pct": 43.0,
+    "process_min": 57162,
+    "setup_min": 2067,
     "available_min": 137617
    },
    "GRIND": {
-    "busy_pct": 55.1,
-    "process_min": 37387,
-    "setup_min": 5827,
+    "busy_pct": 54.3,
+    "process_min": 37221,
+    "setup_min": 5313,
     "available_min": 78392
    },
    "HEAT": {
-    "busy_pct": 24.9,
-    "process_min": 13524,
-    "setup_min": 1889,
+    "busy_pct": 24.6,
+    "process_min": 13248,
+    "setup_min": 1989,
     "available_min": 61850
    },
    "MILL": {
-    "busy_pct": 41.8,
-    "process_min": 57957,
-    "setup_min": 5525,
+    "busy_pct": 41.5,
+    "process_min": 57270,
+    "setup_min": 5718,
     "available_min": 151917
    },
    "PAINT": {
-    "busy_pct": 47.4,
-    "process_min": 28054,
-    "setup_min": 3743,
+    "busy_pct": 46.7,
+    "process_min": 27769,
+    "setup_min": 3552,
     "available_min": 67136
    },
    "SAW": {
     "busy_pct": 44.1,
-    "process_min": 33100,
-    "setup_min": 1705,
+    "process_min": 33123,
+    "setup_min": 1702,
     "available_min": 78967
    },
    "TEST": {
     "busy_pct": 26.0,
-    "process_min": 16810,
+    "process_min": 16806,
     "setup_min": 497,
     "available_min": 66677
    },
    "TURN": {
-    "busy_pct": 39.9,
-    "process_min": 52825,
-    "setup_min": 3605,
+    "busy_pct": 39.5,
+    "process_min": 52250,
+    "setup_min": 3557,
     "available_min": 141281
    },
    "WELD": {
-    "busy_pct": 43.8,
-    "process_min": 51426,
-    "setup_min": 3336,
+    "busy_pct": 43.6,
+    "process_min": 51056,
+    "setup_min": 3414,
     "available_min": 124992
    }
   },
-  "utilisation_overall_pct": 41.5,
-  "changeover_share_of_busy_pct": 7.5,
+  "utilisation_overall_pct": 41.1,
+  "changeover_share_of_busy_pct": 7.4,
   "exceptions": {
-   "LATE_ORDER/MACHINE_CAPACITY": 86,
-   "LATE_ORDER/MATERIAL_DELAY": 19,
+   "LATE_ORDER/MACHINE_CAPACITY": 76,
+   "LATE_ORDER/MATERIAL_DELAY": 27,
    "MATERIAL_SHORTAGE/MATERIAL_SHORTAGE": 12,
-   "NO_CAPACITY_IN_HORIZON/NO_CAPACITY_IN_HORIZON": 4
+   "NO_CAPACITY_IN_HORIZON/NO_CAPACITY_IN_HORIZON": 7
   },
   "material": {
    "lots": 490,

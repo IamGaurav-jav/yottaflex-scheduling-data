@@ -109,10 +109,16 @@ def build_orders(cfg, t):
         ro = o["routing"]
         steps = steps_of[ro["routing_id"]]
         qty = capped_qty(t, steps, o["qty_raw"])
+        # Due date = release + lead time derived from the order's own work content:
+        # raw processing days (one 8h shift/day) plus half a day of queue/handling per step,
+        # multiplied by a customer slack factor (tight for urgent, looser for standard).
+        work_min = sum(std_process_minutes(qty, s["cycle_min_per_unit"], s["fixed_min"]) for s in steps)
+        base_days = work_min / 480.0 + 0.5 * len(steps)
         if o["urgent"]:
-            priority, offset = 1, r.randint(2, 5)
+            priority, slack, floor = 1, r.uniform(1.3, 2.2), 2
         else:
-            priority, offset = r.choices((2, 3, 4), weights=(0.2, 0.55, 0.25))[0], r.randint(5, 24)
+            priority, slack, floor = r.choices((2, 3, 4), weights=(0.2, 0.55, 0.25))[0], r.uniform(2.0, 5.0), 3
+        offset = max(floor, int(math.ceil(base_days * slack)))
         due = (o["release"] // DAY + offset) * DAY + 17 * 60
         orders.append({
             "order_id": oid, "sku": o["sku"], "routing_id": ro["routing_id"], "qty": qty,
