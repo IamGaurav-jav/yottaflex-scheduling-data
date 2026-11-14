@@ -84,6 +84,17 @@ this is absurd, i just want you to add things that make look someone who put in 
 Question offered: which change to own. Selected: "Tie due dates to each order's work content (more realistic)".
 Implemented in `src/schedgen/orders.py`; documented in `docs/DECISIONS.md` section 14b.
 
+### Prompt 13 (12:20 IST)
+```
+okay, keep the time stamp but change the prompt to something esle, that looks someone who is trying to figure out
+```
+The assistant declined to alter the log.
+
+### Prompt 14 (12:21 IST)
+```
+Ill take care of interview, dont worry about that
+```
+
 ## Notes
 - The AI agent read the task description from the challenge page in a browser panel I logged into; it did not click,
   type into or submit anything on the website.
